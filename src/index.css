@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    paddinig: 0
+}
+
+li {
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background: url(./asset/img/bg.jpg);
+    background-size: 100% 100%;
+}
+
+.point {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 96px;
+    height: 96px;
+    background: url("./asset/img/gun(2).png") no-repeat;
+    cursor: pointer;
+    z-index: 998;
+}
+
+.qq {
+    width: 96px;
+    height: 123px;
+    background: url(./asset/img/ballon.png) no-repeat;
+    position: absolute;
+}
+
+#btn {
+    position: absolute;
+    z-index: 998;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    background: skyblue;
+    -webkit-user-select: none;
+    left: 0;
+}
+
+#score {
+    position: absolute;
+    right: 0;
+    z-index: 998;
+    width: 200px;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    background: skyblue;
+    -webkit-user-select: none;
+}
+
+#err {
+    position: absolute;
+    right: 300px;
+    z-index: 998;
+    width: 200px;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    background: skyblue;
+    -webkit-user-select: none;
+}
